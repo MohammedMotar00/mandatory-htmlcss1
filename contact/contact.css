@@ -1,0 +1,122 @@
+/* Start Global*/
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* End global */
+
+html {
+    height: 100%;
+}
+
+/* Start body */
+body {
+    font-family: arial, tahoma;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* End body */
+
+
+
+/* Start Header */
+.welcome-header {
+    background-color: rgb(44, 41, 41);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* End Header */
+
+
+
+/* Start Nav */
+
+
+nav ul {
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: blueviolet;
+}
+
+nav ul a:after {
+    content: " |"
+}
+
+nav ul a:last-child:after {
+    content: " "
+}
+/* End Nav */
+
+
+
+/* Start Form */
+form {
+    width: 26%;
+    height: auto;
+    position: relative;
+    left: 39%;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+.div-form {
+    margin-bottom: 3px;
+}
+
+input, select, textarea {
+    margin-top: 4px;
+}
+
+textarea {
+    resize: none;
+}
+/* End Form */
+
+.clear {
+    clear: both;
+}
+
+/* Start Footer */
+footer {
+    width: auto;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    padding: 20px 20px 35px 20px;
+    margin-top: auto;
+}
+
+.footer-info {
+    position: absolute;
+    bottom: 5px;
+    left: 3px;
+    height: auto;
+    width: auto;
+}
+
+.footer-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    color: rgb(116, 2, 116);
+}
+/* End Footer */

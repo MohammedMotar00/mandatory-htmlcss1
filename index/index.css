@@ -1,0 +1,121 @@
+/* Start Global*/
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* End global */
+
+html {
+    height: 100%;
+}
+
+/* Start body */
+body {
+    font-family: arial, tahoma;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* End body */
+
+
+
+/* Start Header */
+.welcome-header {
+    background-color: rgb(44, 41, 41);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* End Header */
+
+
+
+/* Start Nav */
+
+
+nav ul {
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: blueviolet;
+}
+
+nav ul a:after {
+    content: " |"
+}
+
+nav ul a:last-child:after {
+    content: " "
+}
+/* End Nav */
+
+
+
+/* Start Section */
+section {
+    /* margin: 10% 30% 0% 30%; */
+    position: relative;
+    width: 24%;
+    height: 20%;
+    left: 38%;
+    margin-top: 10%;
+    transition: all 1s ease-in-out;
+}
+
+section p {
+    color: black;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    width: 400px;
+    height: 55px;
+}
+
+section p:hover {
+    text-shadow: 2px 2px 2px rgb(245, 129, 129);
+    transform: scale(1.3 , 1.3)
+}
+/* End Section */
+
+.clear {
+    clear: both;
+}
+
+/* Start Footer */
+footer {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    padding: 20px 20px 35px 20px;
+    margin-top: auto;
+}
+
+.footer-info {
+    position: absolute;
+    bottom: 6px;
+    left: 3px;
+}
+
+.footer-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    color: rgb(116, 2, 116);
+}
+/* End Footer */
