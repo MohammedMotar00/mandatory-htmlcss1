@@ -85,7 +85,7 @@ input, select, textarea {
 }
 
 textarea {
-    resize: none;
+    resize: auto;
 }
 /* End Form */
 
